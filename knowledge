@@ -1,0 +1,73 @@
+Radio buttons
+
+
+form1[0].Page2[0].Section1_sf[0].PlanType_sf[0].PlanType_rb[0]
+	field_type: 5
+	field_type_string: RadioButton
+	field_value: 0
+	choice_values: ['', '', '']
+	on_state: 0
+PAGE: page 1 of t244-fill-16e-example.pdf
+form1[0].Page2[0].Section1_sf[0].PlanType_sf[0].PlanType_rb[0]
+	field_type: 5
+	field_type_string: RadioButton
+	field_value: Off
+	choice_values: ['', '', '']
+	on_state: 1
+PAGE: page 1 of t244-fill-16e-example.pdf
+form1[0].Page2[0].Section1_sf[0].PlanType_sf[0].PlanType_rb[0]
+	field_type: 5
+	field_type_string: RadioButton
+	field_value: Off
+	choice_values: ['', '', '']
+	on_state: 2
+
+
+Radio buttons can be checked yes / no by on_state:
+	if radiobutton
+		if widget.on_state() == str(context[field_name]):
+			widget.field_value == selected_onstate
+		else:
+			widget.field_value == 'Off'
+	
+	else:
+		widget.field_value == context[field_name]
+				
+
+
+form1[0].Page3[0].Section3_sf[0].A_sf[0].A_rb[0]
+	field_type: 5
+	field_type_string: RadioButton
+	field_value: Off
+	choice_values: ['', '']
+	on_state: 0
+PAGE: page 2 of t244-fill-16e-example.pdf
+form1[0].Page3[0].Section3_sf[0].A_sf[0].A_rb[0]
+	field_type: 5
+	field_type_string: RadioButton
+	field_value: 1
+	choice_values: ['', '']
+	on_state: 1
+
+
+
+
+
+
+
+
+	Combobox
+
+	form1[0].Page2[0].Section1_sf[0].Privince[0]
+	field_type: 3
+	field_type_string: ComboBox
+	field_value: QC
+	choice_values: [(' ', ' '), ('AB', 'Alberta'), ('BC', 'British Columbia'), ('MB', 'Manitoba'), ('NB', 'New Brunswick'), ('NL', 'Newfoundland and Labrador'), ('NT', 'Northwest Territories'), ('NS', 'Nova Scotia'), ('NU', 'Nunavut'), ('ON', 'Ontario'), ('PE', 'Prince Edward Island'), ('QC', 'Quebec'), ('SK', 'Saskatchewan'), ('YT', 'Yukon')]
+	on_state: None
+
+
+
+
+
+
+

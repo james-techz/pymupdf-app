@@ -1,0 +1,431 @@
+
+Text field
+
+{
+    '/T': 'RegistrationNumber[0]', 
+    '/FT': '/Tx', 
+    '/Parent': {
+        '/Kids': [
+            IndirectObject(122, 0, 140388715749184), 
+            IndirectObject(191, 0, 140388715749184), 
+            IndirectObject(117, 0, 140388715749184), 
+            IndirectObject(120, 0, 140388715749184), 
+            IndirectObject(121, 0, 140388715749184), 
+            IndirectObject(93, 0, 140388715749184), 
+            IndirectObject(99, 0, 140388715749184), 
+            IndirectObject(105, 0, 140388715749184), 
+            IndirectObject(104, 0, 140388715749184), 
+            IndirectObject(103, 0, 140388715749184), 
+            IndirectObject(102, 0, 140388715749184), 
+            IndirectObject(101, 0, 140388715749184), 
+            IndirectObject(100, 0, 140388715749184), 
+            IndirectObject(192, 0, 140388715749184)
+        ], 
+        '/Parent': IndirectObject(153, 0, 140388715749184), 
+        '/T': 'Section1_sf[0]'
+    }, 
+    '/TU': 'Registration number. Enter the seven-digit registration number assigned by the Canada Revenue Agency. This number starts with zero or one.', 
+    '/Ff': 8388608
+}
+
+{
+    '/T': 'RegistrationNumber[0]', 
+    '/FT': '/Tx', 
+    '/Parent': {
+        '/Kids': [], 
+        '/Parent': IndirectObject(153, 0, 140456105238336), 
+        '/T': 'Section1_sf[0]'
+    }, 
+    '/TU': 'Registration number. Enter the seven-digit registration number assigned by the Canada Revenue Agency. This number starts with zero or one.', 
+    '/Ff': 8388608, 
+    '/V': '123456789'
+}
+    
+
+
+Checkbox - plan types x 2
+
+(
+    'form1[0].Page2[0].Section1_sf[0].PlanType_sf[0].PlanType_rb[0]: 
+    {
+        '/T': 'PlanType_rb[0]', 
+        '/FT': '/Btn', 
+        '/Parent': {
+            '/Kids': [IndirectObject(193, 0, 140456105238336)], 
+            '/Parent': IndirectObject(179, 0, 140456105238336), 
+            '/T': 'PlanType_sf[0]'
+        }, 
+        '/TU': 'PlanType_rb', 
+        '/Ff': 49152, 
+        '/V': '/0', 
+        '/Kids': [], 
+        '/Opt': ['1', '2', '3'], 
+        '/_States_': ['/0', '/1', '/2']
+    }
+)
+
+
+(
+    'form1[0].Page2[0].Section1_sf[0].PlanType_sf[0]:
+    {
+        '/T': 'PlanType_sf[0]', 
+        '/Parent': {
+            '/Kids': [], 
+            '/Parent': IndirectObject(153, 0, 140456105238336), 
+            '/T': 'Section1_sf[0]'
+        }, 
+        '/Kids': [IndirectObject(193, 0, '140456105238336)]
+    }
+)
+
+
+
+
+
+('form1[0].Page2[0].Section1_sf[0].PlanType_sf[0].PlanType_rb[0]: <class '
+ "'pypdf.generic._data_structures.Field'> - {'/T': 'PlanType_rb[0]', '/FT': "
+ "'/Btn', '/Parent': {'/Kids': [IndirectObject(193, 0, 140456105238336)], "
+ "'/Parent': IndirectObject(179, 0, 140456105238336), '/T': 'PlanType_sf[0]'}, "
+ "'/TU': 'PlanType_rb', '/Ff': 49152, '/V': '/0', '/Kids': "
+ '[IndirectObject(116, 0, 140456105238336), IndirectObject(92, 0, '
+ "140456105238336), IndirectObject(91, 0, 140456105238336)], '/Opt': ['1', "
+ "'2', '3'], '/_States_': ['/0', '/1', '/2']}")
+
+
+ ('form1[0].Page2[0].Section1_sf[0].LocationBooksRecords_sf[0].SameAddress[0]: '
+ "<class 'pypdf.generic._data_structures.Field'> - {'/T': 'SameAddress[0]', "
+ "'/FT': '/Btn', '/Parent': {'/Kids': [IndirectObject(98, 0, 140456105238336), "
+ 'IndirectObject(94, 0, 140456105238336), IndirectObject(97, 0, '
+ '140456105238336), IndirectObject(96, 0, 140456105238336), IndirectObject(95, '
+ "0, 140456105238336)], '/Parent': IndirectObject(179, 0, 140456105238336), "
+ "'/T': 'LocationBooksRecords_sf[0]'}, '/TU': 'Location of books and records, "
+ "same as above.', '/V': '/1', '/_States_': ['/1', '/Off']}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// PDF 1.7 specs
+// table 8.71
+
+ {
+    '/AP': {'/N': IndirectObject(592, 0, 140623572287248)}, 
+    '/BS': {'/S': '/B', '/W': 1}, 
+
+    
+    '/DA': '/Helv 8.00 Tf 0 g',  
+
+
+    '/F': 4, 
+    '/FT': '/Btn', 
+    '/Ff': 65536, 
+    '/H': '/I', 
+    '/MK': {'/BC': [0.0, 0.0, 0.0], '/BG': [0.0823517, 0.823532, 0.909805], '/CA': 'Clear Data'}, 
+    '/OC': IndirectObject(583, 0, 140623572287248), 
+    '/P': IndirectObject(1, 0, 140623572287248), 
+    '/Parent': IndirectObject(195, 0, 140623572287248), 
+    '/Rect': [504, 775.08000000000004, 583.20000000000005, 789.48000000000002], 
+    '/StructParent': 3, 
+    '/Subtype': '/Widget', 
+    '/T': 'ClearData_EN[0]', 
+    '/TU': 'Clear Data', 
+    '/Type': '/Annot'
+}
+
+
+ {
+    // The default appearance string containing a sequence of valid 
+    // page-content graphics or text state operators that define such properties as the field’s 
+    // text size and color.
+    '/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', 
+
+
+    '/F': 4, 
+
+    // Field type, table 8.69
+    //  /Tx == text
+    //  /Btn == button: push button, checkbox & radio button (page 685)
+    //  /Ch == choice
+    //  Sig == signature
+    '/FT': '/Tx', 
+
+    // Button field sub-types, page 686
+    //   Bit 16: ==1 -> Radio | ==0 -> checkbox
+    //   Bit 17: ==1 -> push button | ==0 -> check Bit 16
+    //      State can be set by "/V": "/Off" or "/V":"/Yes"
+    '/Ff': 8388608, 
+
+    // value and default value
+    '/V': '',
+    '/DV': '',
+
+    '/MK': {}, 
+    '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), 
+    '/Q': 0, 
+    '/Rect': [19.001000000000001, 640.95000000000005, 358.99900000000002, 651.649], 
+    '/StructParent': 5, 
+
+    // Form fields have /Subtype == /Widget
+    '/Subtype': '/Widget',
+
+    // Partial fields name
+    '/T': 'RegistrationNumber[0]', 
+    
+    // Alternate fieldname (to display in the UI)
+    '/TU': 'Registration number. Enter the seven-digit registration number assigned by the Canada Revenue Agency. This number starts with zero or one.', 
+
+    '/Type': '/Annot'
+}
+ 
+
+
+
+{
+    '/AP': {
+        '/D': {
+            '/0': IndirectObject(8, 0, 140623572287248), 
+            '/Off': IndirectObject(17, 0, 140623572287248)
+        }, 
+        '/N': {
+            '/0': IndirectObject(11, 0, 140623572287248)
+        }
+    }, 
+
+    // Appearance state
+    '/AS': '/Off', 
+
+    // Annotation flags
+    //  1: invisible
+    //  2: hidden
+    //  3: print
+    //  4: Nozoom
+    //  5:
+    // ...
+    '/F': 4, 
+
+
+    '/MK': {'/CA': '4'}, 
+    
+    // Full path name
+    '/NM': 'form1[0].Page2[0].Section1_sf[0].PlanType_sf[0].PlanType_rb[0].DefinedBenefit[0]', 
+
+
+    // Reference to the page object
+    '/P': IndirectObject(1, 0, 140623572287248), 
+    
+    '/Parent': IndirectObject(193, 0, 140623572287248), 
+    '/Rect': [366, 669.45699999999999, 376, 679.45699999999999], 
+    '/StructParent': 6, 
+
+    '/Subtype': '/Widget', 
+    '/Type': '/Annot'
+}
+ 
+{
+    '/AP': {
+        '/D': {
+            '/1': IndirectObject(10, 0, 140623572287248), 
+            '/Off': IndirectObject(9, 0, 140623572287248)
+        }, 
+        '/N': {
+            /1': IndirectObject(7, 0, 140623572287248)
+        }
+    }, 
+    '/AS': '/Off', 
+    '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', 
+    '/F': 4, 
+    '/MK': {'/CA': '4'}, 
+    '/NM': 'form1[0].Page2[0].Section1_sf[0].PlanType_sf[0].PlanType_rb[0].MoneyPurchase[0]', 
+    '/P': IndirectObject(1, 0, 140623572287248), 
+    '/Parent': IndirectObject(193, 0, 140623572287248), 
+    '/Rect': [366, 656.04600000000005, 376, 666.04600000000005], 
+    '/StructParent': 7, 
+    '/Subtype': '/Widget', 
+    '/Type': '/Annot'
+}
+ 
+ 
+ 
+ {'/AP': {'/D': {'/2': IndirectObject(19, 0, 140623572287248), '/Off': IndirectObject(15, 0, 140623572287248)}, '/N': {'/2': IndirectObject(18, 0, 140623572287248)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page2[0].Section1_sf[0].PlanType_sf[0].PlanType_rb[0].Combination[0]', '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(193, 0, 140623572287248), '/Rect': [366, 642.63800000000003, 376, 652.63800000000003], '/StructParent': 8, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 1, '/Rect': [452.44, 640.94899999999996, 521, 651.64800000000002], '/StructParent': 9, '/Subtype': '/Widget', '/T': 'ReportingPeriod[0]', '/TU': 'Number of months in reporting period.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 1, '/Rect': [523, 640.952, 593, 651.65200000000004], '/StructParent': 10, '/Subtype': '/Widget', '/T': 'PlanYearEnd[0]', '/TU': 'Plan year-end. Date. Year 4 digits. Month 2 digits. Day 2 digits.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 0, '/Rect': [19, 616.94799999999998, 593, 627.94899999999996], '/StructParent': 11, '/Subtype': '/Widget', '/T': 'PlanName[0]', '/TU': 'Plan name.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 0, '/Rect': [19, 592.83699999999999, 593, 603.83799999999997], '/StructParent': 12, '/Subtype': '/Widget', '/T': 'PlanAdministrator[0]', '/TU': 'Plan administrator.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 0, '/Rect': [19, 568.83600000000001, 593, 579.83699999999999], '/StructParent': 13, '/Subtype': '/Widget', '/T': 'Address[0]', '/TU': 'Address.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 0, '/Rect': [19, 544.83500000000004, 305, 555.83600000000001], '/StructParent': 14, '/Subtype': '/Widget', '/T': 'City[0]', '/TU': 'City.', '/Type': '/Annot'}
+ 
+ 
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Ch', '/Ff': 67502080, '/MK': {}, '/Opt': [[' ', ' '], ['AB', 'Alberta'], ['BC', 'British Columbia'], ['MB', 'Manitoba'], ['NB', 'New Brunswick'], ['NL', 'Newfoundland and Labrador'], ['NT', 'Northwest Territories'], ['NS', 'Nova Scotia'], ['NU', 'Nunavut'], ['ON', 'Ontario'], ['PE', 'Prince Edward Island'], ['QC', 'Quebec'], ['SK', 'Saskatchewan'], ['YT', 'Yukon']], '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Rect': [307, 544.83500000000004, 431, 555.83600000000001], '/StructParent': 15, '/Subtype': '/Widget', '/T': 'Privince[0]', '/TU': "Province or territory. Select your province from the drop down menu. If it's not listed please type it in manually.", '/Type': '/Annot'}
+ 
+ 
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 0, '/Rect': [433, 544.83500000000004, 503, 555.83600000000001], '/StructParent': 16, '/Subtype': '/Widget', '/T': 'PostalCode[0]', '/TU': 'Postal code. 6 characters.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 0, '/Rect': [505, 544.83500000000004, 593, 555.83600000000001], '/StructParent': 17, '/Subtype': '/Widget', '/T': 'PhoneNumber[0]', '/TU': 'Telephone number. 10 digits.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/MaxLen': 9, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 0, '/Rect': [19, 520.83699999999999, 143, 531.83799999999997], '/StructParent': 18, '/Subtype': '/Widget', '/T': 'BusinessNumber[0]', '/TU': 'Business Number. 9 digits.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(179, 0, 140623572287248), '/Q': 0, '/Rect': [145, 520.83399999999995, 593, 531.83500000000004], '/StructParent': 19, '/Subtype': '/Widget', '/T': 'Contact[0]', '/TU': 'Contact, individual to whom we can direct general enquiries.', '/Type': '/Annot'}
+ 
+ {
+    '/AP': {
+        '/D': {
+            '/1': IndirectObject(13, 0, 140623572287248), 
+            '/Off': IndirectObject(12, 0, 140623572287248)
+        }, 
+        '/N': {
+            '/1': IndirectObject(14, 0, 140623572287248)
+        }
+    }, 
+    '/AS': '/Off', 
+    '/DA': '/ZaDb 7 Tf 0 0 0.502 rg /ZaDb 7 Tf 0 0 0.502 rg ', 
+    '/F': 4, 
+    '/FT': '/Btn', 
+    '/MK': {'/CA': '4'}, 
+    '/P': IndirectObject(1, 0, 140623572287248), 
+    '/Parent': IndirectObject(192, 0, 140623572287248), 
+    '/Rect': [190.083, 505.96100000000001, 200.083, 515.96100000000001], 
+    '/StructParent': 20, 
+    '/Subtype': '/Widget', 
+    '/T': 'SameAddress[0]', 
+    '/TU': 'Location of books and records, same as above.', 
+    '/Type': '/Annot'
+}
+ 
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(192, 0, 140623572287248), '/Q': 0, '/Rect': [19, 478.88999999999999, 593, 489.89100000000002], '/StructParent': 21, '/Subtype': '/Widget', '/T': 'Address[0]', '/TU': 'Location of books and records. Address.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(192, 0, 140623572287248), '/Q': 0, '/Rect': [19, 454.88900000000001, 305, 465.88999999999999], '/StructParent': 22, '/Subtype': '/Widget', '/T': 'City[0]', '/TU': 'Location of books and records. City.', '/Type': '/Annot'}
+ 
+ 
+ 
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Ch', '/Ff': 67502080, '/MK': {}, '/Opt': [[' ', ' '], ['AB', 'Alberta'], ['BC', 'British Columbia'], ['MB', 'Manitoba'], ['NB', 'New Brunswick'], ['NL', 'Newfoundland and Labrador'], ['NT', 'Northwest Territories'], ['NS', 'Nova Scotia'], ['NU', 'Nunavut'], ['ON', 'Ontario'], ['PE', 'Prince Edward Island'], ['QC', 'Quebec'], ['SK', 'Saskatchewan'], ['YT', 'Yukon']], '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(192, 0, 140623572287248), '/Rect': [307, 454.88900000000001, 449, 465.88999999999999], '/StructParent': 23, '/Subtype': '/Widget', '/T': 'Prov_DropDown[0]', '/TU': "Province or territory. Location of books and records. Select your province from the drop down menu. If it's not listed please type it in manually.", '/Type': '/Annot'}
+ 
+ 
+ 
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(192, 0, 140623572287248), '/Q': 0, '/Rect': [451, 454.88900000000001, 593, 465.88999999999999], '/StructParent': 24, '/Subtype': '/Widget', '/T': 'PostalCode_BordersAll[0]', '/TU': 'Location of books and records. Postal code. 6 characters.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(181, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 399.565, 575, 415.565], '/StructParent': 25, '/Subtype': '/Widget', '/T': 'Line1_Amount[0]', '/TU': 'Line 1. Employer contributions. The total amount of current service and past-service contributions.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(182, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 376.52499999999998, 575, 392.52499999999998], '/StructParent': 26, '/Subtype': '/Widget', '/T': 'Line2_Amount[0]', '/TU': 'Line 2. Employee contributions. The total amount of current service, past-service and voluntary contributions.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(183, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 343.822, 575, 359.822], '/StructParent': 27, '/Subtype': '/Widget', '/T': 'Line3_Amount[0]', '/TU': 'Line 3. Transfers received. Total amount transferred in from other plans, registered pension plans, deferred profit sharing plans, and registered retirement savings plans.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(184, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 320.36500000000001, 575, 336.36500000000001], '/StructParent': 28, '/Subtype': '/Widget', '/T': 'Line4_Amount[0]', '/TU': 'Line 4. Net investment earnings, losses. If amount is a loss, enclose the amount in brackets.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(185, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 297.32499999999999, 575, 313.32499999999999], '/StructParent': 29, '/Subtype': '/Widget', '/T': 'Line5_Amount[0]', '/TU': 'Line 5. Payment of benefits. The total amount of current service, past-service and voluntary contributions.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(186, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 265.77600000000001, 575, 281.77600000000001], '/StructParent': 30, '/Subtype': '/Widget', '/T': 'Line6_Amount[0]', '/TU': 'Line 6. Transfers out. Total amount of all transfers to other plans, registered pension plans, registered retirement savings plans, and registered retirement income funds.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(187, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 232.65600000000001, 575, 248.65600000000001], '/StructParent': 31, '/Subtype': '/Widget', '/T': 'Line7_Amount[0]', '/TU': 'Line 7. Market or book value of assets at the beginning of the plan year. Market value of assets at the beginning of the plan year for public sector plans only, give the book value when market value is unavailable.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(188, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 199.536, 575, 215.536], '/StructParent': 32, '/Subtype': '/Widget', '/T': 'Line8_Amount[0]', '/TU': 'Line 8. Market or book value of assets at the end of the plan year. Market value of assets at the end of the plan year for public sector plans only, give the book value when market value is unavailable.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(189, 0, 140623572287248), '/Q': 2, '/Rect': [503.99900000000002, 175.05600000000001, 575, 191.05600000000001], '/StructParent': 33, '/Subtype': '/Widget', '/T': 'Line9_Amount[0]', '/TU': 'Line 9. Actuarial liabilities resulting from plan obligations. Total actuarial liability based on a funding method that matches contributions with accrued benefits on a reasonable basis.', '/Type': '/Annot'}
+ {'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(1, 0, 140623572287248), '/Parent': IndirectObject(190, 0, 140623572287248), '/Q': 1, '/Rect': [503.99900000000002, 152.18799999999999, 575, 169.18799999999999], '/StructParent': 34, '/Subtype': '/Widget', '/T': 'Date[0]', '/TU': 'Line 10. Date of actuarial liability assessment. Date of the last calculation of actuarial liability from plan obligation. Year 4 digits. Month 2 digits. Day 2 digits.', '/Type': '/Annot'}
+
+
+
+
+
+
+
+ {
+    '/DA': '/Helv 0 Tf 0 g ', 
+    '/DR': {
+        '/Font': {
+            '/HeBo': IndirectObject(588, 0, 140623572287248), 
+            '/Helv': IndirectObject(586, 0, 140623572287248), 
+            '/ZaDb': IndirectObject(119, 0, 140623572287248)
+        }
+    }, 
+    '/Fields': [
+        IndirectObject(151, 0, 140623572287248)
+    ], 
+    '/XFA': [
+        'xdp:xdp', IndirectObject(595, 0, 140623572287248), 
+        'config', IndirectObject(71, 0, 140623572287248), 
+        'template', IndirectObject(72, 0, 140623572287248), 
+        'localeSet', IndirectObject(73, 0, 140623572287248), 
+        'datasets', IndirectObject(74, 0, 140623572287248), 
+        'xmpmeta', IndirectObject(75, 0, 140623572287248), 
+        'xfdf', IndirectObject(76, 0, 140623572287248), 
+        'PDFSecurity', IndirectObject(77, 0, 140623572287248), 
+        'form', IndirectObject(596, 0, 140623572287248), 
+        '</xdp:xdp>', IndirectObject(597, 0, 140623572287248)
+    ], 
+    '/SigFlags': 2
+}
+
+
+
+
+
+
+{'/AP': {'/N': IndirectObject(594, 0, 140168931884816)}, '/BS': {'/S': '/B', '/W': 1}, '/DA': '/Helv 8.00 Tf 0 g', '/F': 4, '/FT': '/Btn', '/Ff': 65536, '/H': '/I', '/MK': {'/BC': [0.0, 0.0, 0.0], '/BG': [0.0823517, 0.823532, 0.909805], '/CA': 'Clear Data'}, '/OC': IndirectObject(583, 0, 140168931884816), '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(196, 0, 140168931884816), '/Rect': [504, 775.08000000000004, 583.20000000000005, 789.48000000000002], '/StructParent': 35, '/Subtype': '/Widget', '/T': 'ClearData_EN[0]', '/TU': 'Clear Data', '/Type': '/Annot'}
+
+{'/AP': {'/D': {'/0': IndirectObject(31, 0, 140168931884816), '/Off': IndirectObject(27, 0, 140168931884816)}, '/N': {'/0': IndirectObject(28, 0, 140168931884816)}}, '/AS': '/Off', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section3_sf[0].A_sf[0].A_rb[0].Yes[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(177, 0, 140168931884816), '/Rect': [502.76600000000002, 727.61599999999999, 512.76599999999996, 737.61599999999999], '/StructParent': 37, '/Subtype': '/Widget', '/Type': '/Annot'}
+{'/AP': {'/D': {'/1': IndirectObject(30, 0, 140168931884816), '/Off': IndirectObject(26, 0, 140168931884816)}, '/N': {'/1': IndirectObject(29, 0, 140168931884816)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section3_sf[0].A_sf[0].A_rb[0].No[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(177, 0, 140168931884816), '/Rect': [545.96600000000001, 727.61599999999999, 555.96600000000001, 737.61599999999999], '/StructParent': 38, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+{
+    '/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', 
+    '/F': 4, 
+    '/FT': '/Tx', 
+    '/Ff': 25165824, 
+    '/MK': {}, 
+    '/MaxLen': 8, 
+    '/P': IndirectObject(4, 0, 140168931884816), 
+    '/Parent': IndirectObject(178, 0, 140168931884816), 
+    '/Q': 0, '/Rect': [479.07999999999998, 707.53599999999994, 573.08100000000002, 717.53700000000003], 
+    '/StructParent': 39, 
+    '/Subtype': '/Widget', 
+    '/T': 'DateYYYYMMDD_Comb[0]', 
+    '/TU': 'If yes, enter the date the accruals or the contributions stopped. Year 4 digits. Month 2 digits. Day 2 digits.', 
+    '/Type': '/Annot'
+}
+
+{'/AP': {'/D': {'/0': IndirectObject(22, 0, 140168931884816), '/Off': IndirectObject(25, 0, 140168931884816)}, '/N': {'/0': IndirectObject(24, 0, 140168931884816)}}, '/AS': '/Off', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section3_sf[0].B_sf[0].AB_rb[0].Yes[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(175, 0, 140168931884816), '/Rect': [502.76600000000002, 678.05499999999995, 512.76599999999996, 688.05499999999995], '/StructParent': 40, '/Subtype': '/Widget', '/Type': '/Annot'}
+{'/AP': {'/D': {'/1': IndirectObject(32, 0, 140168931884816), '/Off': IndirectObject(23, 0, 140168931884816)}, '/N': {'/1': IndirectObject(21, 0, 140168931884816)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section3_sf[0].B_sf[0].AB_rb[0].No[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(175, 0, 140168931884816), '/Rect': [545.96600000000001, 678.05499999999995, 555.96600000000001, 688.05499999999995], '/StructParent': 41, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+{
+    '/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', 
+    '/F': 4, 
+    '/FT': '/Tx', 
+    '/Ff': 25165824, 
+    '/MK': {}, 
+    '/MaxLen': 8, 
+    '/P': IndirectObject(4, 0, 140168931884816), 
+    '/Parent': IndirectObject(176, 0, 140168931884816), 
+    '/Q': 0, 
+    '/Rect': [479.07999999999998, 657.97500000000002, 573.08100000000002, 667.976], 
+    '/StructParent': 42, 
+    '/Subtype': '/Widget', 
+    '/T': 'DateYYYYMMDD_Comb[0]', 
+    '/TU': 'If yes, enter the date the last of the funds were paid out. Year 4 digits. Month 2 digits. Day 2 digits.', 
+    '/Type': '/Annot'
+}
+
+
+{'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(156, 0, 140168931884816), '/Q': 0, '/Rect': [19, 590.94899999999996, 305, 602.13699999999994], '/StructParent': 43, '/Subtype': '/Widget', '/T': 'A_Amount[0]', '/TU': 'A. How many employees were active members at plan year-end?\t', '/Type': '/Annot'}
+{'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(156, 0, 140168931884816), '/Q': 0, '/Rect': [307, 590.94899999999996, 593, 601.94500000000005], '/StructParent': 44, '/Subtype': '/Widget', '/T': 'B_Amount[0]', '/TU': 'B. How many active members were connected persons with the employer?', '/Type': '/Annot'}
+{'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(157, 0, 140168931884816), '/Q': 0, '/Rect': [19, 540.72799999999995, 593, 551.75599999999997], '/StructParent': 45, '/Subtype': '/Widget', '/T': 'Section5_Text[0]', '/TU': 'How many employers participated in the plan at plan year-end? For specified multi-employer plans, go to section 11. For multi-employer plans, go to section 9. For other plans, continue with section 6.', '/Type': '/Annot'}
+
+{'/AP': {'/D': {'/0': IndirectObject(67, 0, 140168931884816), '/Off': IndirectObject(66, 0, 140168931884816)}, '/N': {'/0': IndirectObject(68, 0, 140168931884816)}}, '/AS': '/Off', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section6_sf[0].List_sf[0].ListItem01_sf[0].Bullet_rb[0].Yes[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(172, 0, 140168931884816), '/Rect': [502.76299999999998, 489.31, 512.76300000000003, 499.31], '/StructParent': 46, '/Subtype': '/Widget', '/Type': '/Annot'}
+{'/AP': {'/D': {'/1': IndirectObject(64, 0, 140168931884816), '/Off': IndirectObject(63, 0, 140168931884816)}, '/N': {'/1': IndirectObject(65, 0, 140168931884816)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section6_sf[0].List_sf[0].ListItem01_sf[0].Bullet_rb[0].No[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(172, 0, 140168931884816), '/Rect': [545.96299999999997, 489.31, 555.96299999999997, 499.31], '/StructParent': 47, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+{'/AP': {'/D': {'/0': IndirectObject(61, 0, 140168931884816), '/Off': IndirectObject(60, 0, 140168931884816)}, '/N': {'/0': IndirectObject(62, 0, 140168931884816)}}, '/AS': '/Off', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section6_sf[0].List_sf[0].ListItem02_sf[0].Bullet_rb[0].Yes[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(171, 0, 140168931884816), '/Rect': [502.76299999999998, 469.21499999999997, 512.76300000000003, 479.21499999999997], '/StructParent': 48, '/Subtype': '/Widget', '/Type': '/Annot'}
+{'/AP': {'/D': {'/1': IndirectObject(58, 0, 140168931884816), '/Off': IndirectObject(57, 0, 140168931884816)}, '/N': {'/1': IndirectObject(59, 0, 140168931884816)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section6_sf[0].List_sf[0].ListItem02_sf[0].Bullet_rb[0].No[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(171, 0, 140168931884816), '/Rect': [545.96299999999997, 469.21499999999997, 555.96299999999997, 479.21499999999997], '/StructParent': 49, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+{'/AP': {'/D': {'/0': IndirectObject(55, 0, 140168931884816), '/Off': IndirectObject(54, 0, 140168931884816)}, '/N': {'/0': IndirectObject(56, 0, 140168931884816)}}, '/AS': '/Off', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section7_sf[0].Section7_rb[0].Yes[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(167, 0, 140168931884816), '/Rect': [502.76299999999998, 431.39800000000002, 512.76300000000003, 441.39800000000002], '/StructParent': 50, '/Subtype': '/Widget', '/Type': '/Annot'}
+{'/AP': {'/D': {'/1': IndirectObject(52, 0, 140168931884816), '/Off': IndirectObject(51, 0, 140168931884816)}, '/N': {'/1': IndirectObject(53, 0, 140168931884816)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section7_sf[0].Section7_rb[0].No[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(167, 0, 140168931884816), '/Rect': [545.96299999999997, 431.39800000000002, 555.96299999999997, 441.39800000000002], '/StructParent': 51, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+{'/AP': {'/D': {'/0': IndirectObject(49, 0, 140168931884816), '/Off': IndirectObject(48, 0, 140168931884816)}, '/N': {'/0': IndirectObject(50, 0, 140168931884816)}}, '/AS': '/Off', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section8_sf[0].Section8_rb[0].Yes[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(166, 0, 140168931884816), '/Rect': [502.76299999999998, 395.39800000000002, 512.76300000000003, 405.39800000000002], '/StructParent': 52, '/Subtype': '/Widget', '/Type': '/Annot'}
+{'/AP': {'/D': {'/1': IndirectObject(46, 0, 140168931884816), '/Off': IndirectObject(45, 0, 140168931884816)}, '/N': {'/1': IndirectObject(47, 0, 140168931884816)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section8_sf[0].Section8_rb[0].No[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(166, 0, 140168931884816), '/Rect': [545.96299999999997, 395.39800000000002, 555.96299999999997, 405.39800000000002], '/StructParent': 53, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+{'/AP': {'/D': {'/0': IndirectObject(43, 0, 140168931884816), '/Off': IndirectObject(42, 0, 140168931884816)}, '/N': {'/0': IndirectObject(44, 0, 140168931884816)}}, '/AS': '/Off', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section9_sf[0].Section9_rb[0].Yes[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(165, 0, 140168931884816), '/Rect': [502.76299999999998, 341.452, 512.76300000000003, 351.452], '/StructParent': 54, '/Subtype': '/Widget', '/Type': '/Annot'}
+{'/AP': {'/D': {'/1': IndirectObject(40, 0, 140168931884816), '/Off': IndirectObject(39, 0, 140168931884816)}, '/N': {'/1': IndirectObject(41, 0, 140168931884816)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section9_sf[0].Section9_rb[0].No[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(165, 0, 140168931884816), '/Rect': [545.96299999999997, 341.452, 555.96299999999997, 351.452], '/StructParent': 55, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+{'/AP': {'/D': {'/0': IndirectObject(37, 0, 140168931884816), '/Off': IndirectObject(36, 0, 140168931884816)}, '/N': {'/0': IndirectObject(38, 0, 140168931884816)}}, '/AS': '/Off', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section10_sf[0].Section10_rb[0].Yes[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(164, 0, 140168931884816), '/Rect': [502.76299999999998, 305.63099999999997, 512.76300000000003, 315.63099999999997], '/StructParent': 56, '/Subtype': '/Widget', '/Type': '/Annot'}
+{'/AP': {'/D': {'/1': IndirectObject(34, 0, 140168931884816), '/Off': IndirectObject(33, 0, 140168931884816)}, '/N': {'/1': IndirectObject(35, 0, 140168931884816)}}, '/AS': '/Off', '/DA': '/ZaDb 7.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/MK': {'/CA': '4'}, '/NM': 'form1[0].Page3[0].Section10_sf[0].Section10_rb[0].No[0]', '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(164, 0, 140168931884816), '/Rect': [545.96299999999997, 305.63099999999997, 555.96299999999997, 315.63099999999997], '/StructParent': 57, '/Subtype': '/Widget', '/Type': '/Annot'}
+
+{'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(163, 0, 140168931884816), '/Q': 1, '/Rect': [28.437000000000001, 238.30000000000001, 236.43600000000001, 249.30099999999999], '/StructParent': 58, '/Subtype': '/Widget', '/T': 'Name[0]', '/TU': 'Name.', '/Type': '/Annot'}
+{'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/MK': {}, '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(163, 0, 140168931884816), '/Q': 1, '/Rect': [21.957000000000001, 187.26499999999999, 91.956999999999994, 198.26599999999999], '/StructParent': 59, '/Subtype': '/Widget', '/T': 'Date[0]', '/TU': 'Signature date. Year 4 digits. Month 2 digits. Day 2 digits.', '/Type': '/Annot'}
+{'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 68, '/FT': '/Tx', '/Ff': 8388609, '/MK': {}, '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(163, 0, 140168931884816), '/Q': 0, '/Rect': [109.652, 187.26499999999999, 287.65199999999999, 198.26599999999999], '/StructParent': 60, '/Subtype': '/Widget', '/T': 'Signature[0]', '/TU': 'Signature of authorized person', '/Type': '/Annot'}
+{'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(163, 0, 140168931884816), '/Q': 1, '/Rect': [305.34699999999998, 187.26499999999999, 483.34699999999998, 198.26599999999999], '/StructParent': 61, '/Subtype': '/Widget', '/T': 'Title[0]', '/TU': 'Title of authorized person.', '/Type': '/Annot'}
+{'/DA': '/HeBo 8.00 Tf 0.000 0.000 0.502 rg', '/F': 4, '/FT': '/Tx', '/Ff': 8388608, '/MK': {}, '/P': IndirectObject(4, 0, 140168931884816), '/Parent': IndirectObject(163, 0, 140168931884816), '/Q': 1, '/Rect': [501.04300000000001, 186.89099999999999, 589.04300000000001, 197.892], '/StructParent': 62, '/Subtype': '/Widget', '/T': 'PhoneNumber[0]', '/TU': 'Telephone number of authorized person. 10 digits.', '/Type': '/Annot'}
